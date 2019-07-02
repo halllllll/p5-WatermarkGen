@@ -65,7 +65,7 @@ public class TilingPatternState extends State{
   }
 
   PImage drawHelp(int cx , int cy, float w, float h){
-    offscreen = createGraphics(round(w), round(h), P2D);
+    offscreen = createGraphics(round(w), round(h));
     offscreen.beginDraw();
     offscreen.background(240);
     offscreen.pushStyle();
